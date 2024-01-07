@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customize Scrollbar</title>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  
+}
+.page{
+  height: 100vh;
+  width: 100%;
+  border-bottom: 3px solid ;
+  border-top: 3px solid black;
+  color: black;
+}
+body::-webkit-scrollbar{
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+  background:black;
+  border-radius: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="page"><h1 style= "text-align: center; margin-top: 40%;" >DIV 1</h1> </div>
+  <div class="page"> <h1 style= "text-align: center;margin-top: 40%;">DIV 2</h1></div>
+  <div class="page"> <h1 style= "text-align: center;margin-top: 40%;">DIV 3</h1></div>
+  <div class="page"> <h1 style= "text-align: center;margin-top: 40%;">DIV 4</h1></div>
+</body>
+</html>
